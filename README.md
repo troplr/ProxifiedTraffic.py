@@ -3,8 +3,8 @@ A bot designed to send requests from unique proxy ip addresses to specific urls
 
 * Usage:
 ------
-$ python main.py
-$ Target url: http://myip.dnsomatic.com/
+$ python main.py<br>
+$ Target url: http://myip.dnsomatic.com/<br>
 Console output ... [Excluded]
 
 * Instructions:
