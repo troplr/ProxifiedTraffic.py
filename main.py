@@ -6,6 +6,9 @@ import socket
 socket.setdefaulttimeout(3)
 proxies = open('proxies.txt','r').read().split('\n')
 url = raw_input('Target url: ')
+if 'https://' not in url:
+    if 'http://' not in url:
+        url = 'http://' + url
 for i in proxies:
     try:
         if 'http://' not in i:
