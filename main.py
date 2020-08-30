@@ -5,7 +5,7 @@ import urllib
 import socket
 socket.setdefaulttimeout(3)
 proxies = open('proxies.txt','r').read().split('\n')
-url = raw_input('Target url: ')
+url = raw_input('Target url:https://unboxedphone.com ')
 if 'https://' not in url:
     if 'http://' not in url:
         url = 'http://' + url
